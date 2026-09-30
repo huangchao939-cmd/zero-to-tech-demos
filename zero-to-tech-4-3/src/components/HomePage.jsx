@@ -13,7 +13,7 @@ export default function HomePage({ current, onNavigate }) {
 
       {/* 下面这两张卡只在首页用、也不复杂，就直接写在这儿——不必为了拆而拆 */}
       <article className="panel panel-full featured-work-panel card">
-        <p className="section-kicker">作品</p>
+        <p className="section-kicker">你的作品</p>
         <p className="featured-title">文字实验室</p>
         <p className="featured-copy">拼音和情绪，挖掘中文里的细节</p>
         <a
@@ -33,7 +33,7 @@ export default function HomePage({ current, onNavigate }) {
         </div>
         <div className="identity-item">
           <p className="section-kicker">正在学习</p>
-          <p className="identity-value">零到全栈</p>
+          <p className="identity-value">零到全栈101</p>
         </div>
       </article>
     </AnimatedCardGrid>
